@@ -1,0 +1,38 @@
+cOMMANDS TO FOLLOWS
+
+*NOTE
+1]There are 3 stages in i.e 'Working Directory', 'staging area', 'Git directory(repository)'.
+2] If we want to change something in file then, need to go file through the 'Staging area' and then 'commit' it.
+3] 
+
+* Commands
+
+1] git add . = To take whole file of directory to 'Git Directory'.
+2] git add {filename.txt} = To add file into the git directory
+3] git commit -m {'message'} = To save commit changes in file.
+4] git status = To get cuurent file status if someone made changes in file, if then shows -'modified: {filename}' 
+5] git diff = To shows exact what changes has been happened in file.
+	ex: diff --git a/Phone.txt b/Phone.txt
+	index 03e8087..3e31f54 100644
+	--- a/Phone.txt
+	+++ b/Phone.txt
+	@@ -1,4 +1,6 @@
+	 phone
+
+	 scratchless - gorilla glass
+	-smartphone
+	\ No newline at end of file
+	+smartphone
+	+
+	+hey
+	\ No newline at end of file
+	diff --git a/notes.txt b/notes.txt
+	index f48c202..32388b6 100644
+	--- a/notes.txt
+	+++ b/notes.txt
+	@@ -1,9 +1,15 @@
+	 cOMMANDS TO FOLLOWS
+
+	-* There are 3 stages in i.e 'Working Directory', 'staging area', 'Git directory
+	(repository)'.
+
