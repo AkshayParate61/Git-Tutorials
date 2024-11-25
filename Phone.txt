@@ -12,3 +12,5 @@ hi
 hey
 hello
 nice
+everyone
+good
