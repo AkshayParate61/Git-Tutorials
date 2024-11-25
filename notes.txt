@@ -40,3 +40,6 @@ cOMMANDS TO FOLLOWS
    whenever we add repo we can easily add repo
 9] git log = It shows who has done the last changes.
 10] Words = PULL(To get things from Github) & Push(To upload something on github).
+11] $ ssh-keygen -t rsa -b 4096 -C "akshayparate61@gmail.com" = To create shh-key.
+12] ssh-add c:/Users/DELL/.ssh/id_ed25519 = To add ssh-key.
+13] clip < ~/.ssh/id_ed25519.pub = To copy the shh-key.
