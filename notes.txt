@@ -35,4 +35,8 @@ cOMMANDS TO FOLLOWS
 
 	-* There are 3 stages in i.e 'Working Directory', 'staging area', 'Git directory
 	(repository)'.
-
+7] git config --global user.name "name" = To add user name.
+8] git config --blobal user.email "emmail" = To add user to git and command '--global' is for whole directory,
+   whenever we add repo we can easily add repo
+9] git log = It shows who has done the last changes.
+10] Words = PULL(To get things from Github) & Push(To upload something on github).
